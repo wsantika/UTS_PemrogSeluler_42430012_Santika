@@ -9,6 +9,7 @@ import android.widget.TextView
 import android.widget.EditText
 import android.widget.Button
 
+
 class GeneratorActivity : AppCompatActivity() {
     lateinit var tvGreeting: TextView
     lateinit var etJumlah: EditText
@@ -18,6 +19,7 @@ class GeneratorActivity : AppCompatActivity() {
     lateinit var etKeaktifan: EditText
     lateinit var etUTS: EditText
     lateinit var etUAS: EditText
+    lateinit var tvStatus: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +33,7 @@ class GeneratorActivity : AppCompatActivity() {
         etKeaktifan = findViewById(R.id.etKeaktifan)
         etUTS = findViewById(R.id.etUTS)
         etUAS = findViewById(R.id.etUAS)
+        tvStatus = findViewById(R.id.tvStatus)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -53,16 +56,24 @@ class GeneratorActivity : AppCompatActivity() {
 
             if (nilaiAkhir >= 80) {
                 status = "Sangat Baik"
+                tvStatus.text = "Sangat Baik"
+                tvStatus.setBackgroundResource(R.drawable.status_baik)
+
             } else if (nilaiAkhir >= 60) {
                 status = "Cukup"
+                tvStatus.text = "Cukup"
+                tvStatus.setBackgroundResource(R.drawable.status_cukup)
+
             } else {
                 status = "Kurang"
+                tvStatus.text = "Kurang"
+                tvStatus.setBackgroundResource(R.drawable.status_kurang)
             }
 
             var daftar = ""
 
             for (i in 1..jumlah) {
-                daftar += "Mahasiswa $i : ______\n"
+                daftar += "• Mahasiswa $i\n"
             }
 
             tvHasil.text =
