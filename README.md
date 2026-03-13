@@ -72,17 +72,19 @@ Nilai Akhir = (Tugas + Keaktifan + UTS + UAS) / 4
 
 ### 1. Halaman Login
 
-|                     Mode Portrait                     |                      Mode Landscape                     |
-| :---------------------------------------------------: | :-----------------------------------------------------: |
-| ![Login Portrait](link_screenshot_login_portrait.png) | ![Login Landscape](link_screenshot_login_landscape.png) |
+|              Mode Portrait              |              Mode Landscape               |
+|:---------------------------------------:|:-----------------------------------------:|
+|    ![Login Portrait](images/img.png)    |   ![Login Landscape](images/img_1.png)    |
+| <img src="images/img.png" width="250"/> | <img src="images/img_1.png" width="250"/> |
 
 ---
 
 ### 2. Halaman Generator Penilaian
 
-|        Input Data        |       Hasil Generate       |
-| :----------------------: | :------------------------: |
-| ![Input](link_input.png) | ![Output](link_output.png) |
+|                Input Data                 |              Hasil Generate               |
+|:-----------------------------------------:|:-----------------------------------------:|
+|        ![Input](images/img_2.png)         |        ![Output](images/img_3.png)        |
+| <img src="images/img_2.png" width="250"/> | <img src="images/img_3.png" width="250"/> |
 
 ---
 
