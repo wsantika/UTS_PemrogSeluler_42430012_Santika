@@ -75,7 +75,6 @@ Nilai Akhir = (Tugas + Keaktifan + UTS + UAS) / 4
 |              Mode Portrait              |              Mode Landscape               |
 |:---------------------------------------:|:-----------------------------------------:|
 |    ![Login Portrait](images/img.png)    |   ![Login Landscape](images/img_1.png)    |
-| <img src="images/img.png" width="250"/> | <img src="images/img_1.png" width="250"/> |
 
 ---
 
@@ -84,7 +83,6 @@ Nilai Akhir = (Tugas + Keaktifan + UTS + UAS) / 4
 |                Input Data                 |              Hasil Generate               |
 |:-----------------------------------------:|:-----------------------------------------:|
 |        ![Input](images/img_2.png)         |        ![Output](images/img_3.png)        |
-| <img src="images/img_2.png" width="250"/> | <img src="images/img_3.png" width="250"/> |
 
 ---
 
